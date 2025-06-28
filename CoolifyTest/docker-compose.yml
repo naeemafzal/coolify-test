@@ -1,0 +1,6 @@
+services:
+  coolifytest.webapp:
+    image: ${DOCKER_REGISTRY-}coolifytestwebapp
+    build:
+      context: .
+      dockerfile: CoolifyTest.WebApp/Dockerfile
