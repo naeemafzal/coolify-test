@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using CoolifyTest.WebApp.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace CoolifyTest.WebApp.Controllers
 {
