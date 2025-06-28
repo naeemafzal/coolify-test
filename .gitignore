@@ -1,0 +1,101 @@
+# ============================
+# .NET (ASP.NET Core)
+# ============================
+
+# Build and publish output
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.nupkg
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.lock.json
+*.vs/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.csproj.user
+*.sln.docstates
+
+# NuGet packages
+packages/
+**/packages.lock.json
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Runtime artifacts
+appsettings.Development.json
+appsettings.Production.json
+secrets.json
+
+
+# Testing
+TestResults/
+coverage/
+
+# ============================
+# React (Vite, Node.js)
+# ============================
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs and temp files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE-specific files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# ============================
+# General
+# ============================
+
+# Backup files
+*.bak
+*.tmp
+*~
+
+# Temporary files
+temp/
+.tmp/
+
+# ============================
+# Optional: Exclude specific tools or frameworks
+# ============================
+
+# Tailwind CSS
+.tailwindcss/
+
+# Vite cache
+.cache/
+
+# Spesific files
+CoolifyTest/CoolifyTest.WebApp/wwwroot/assets/
