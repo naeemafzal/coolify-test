@@ -1,6 +1,11 @@
+
+
 services:
-  coolifytest.webapp:
-    image: ${DOCKER_REGISTRY-}coolifytestwebapp
+  coolifytest:
+    container_name: coolifytest.app
     build:
       context: .
       dockerfile: CoolifyTest.WebApp/Dockerfile
+    environment:
+      - NIXPACKS_CSHARP_SDK_VERSION=8.0
+      - SERVICE_FQDN_COOLIFYTEST_3000
